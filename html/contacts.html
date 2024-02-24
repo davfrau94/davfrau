@@ -9,24 +9,19 @@
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Davide Frau | Home page</title>
 
-    <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Davide Frau | Web Developer"/>
     <meta property="og:url" content="https://davidefrau.netlify.app/"/>
     <meta property="og:description" content="Hi, i'm Davide, a Full Stack Development student"/>
 
-    <!-- Link CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/contacts.css">
-    
-    <!-- Font Google e Boxicons-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <!-- navbar -->
     <nav>
         <input type="checkbox" id="check">
         <label for="check" class="check-btn">
@@ -40,22 +35,18 @@
             <li><a class="active" href="contacts.html">Contacts</a></li>
         </ul>
     </nav>
-
-    <!-- page content -->
     <div class="form-container">
-        <main class="form-header">
+        <header class="form-header">
             <h1>Contacts</h1>
-
             <ul class="social">
                 <li><a href="https://github.com/davfrau94" target="_blank"><i class='bx bxl-github'></i></a></li>
-                <li><a href="https://www.linkedin.com/in/davide-frau-b79b84296/" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
+                <li><a href="https://www.linkedin.com/in/davide-frau/" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
                 <li><a href="https://www.instagram.com/dav_frau/?igshid=NzZlODBkYWE4Ng%3D%3D&utm_source=qr" target="_blank"><i class='bx bxl-instagram-alt'></i></a></li>
             </ul>
+            <p>If you are visiting this page, it means you have something to tell me. If you want to send me an email, please fill out the following form.</p>
+            <p>Thank you very much!</p>
+        </header>
 
-            <p>If you are visiting this page, it means you have something to tell me. If you want to send me an email, please fill out the following form. Thank you very much!</p>
-        </main>
-
-        <!-- form -->
         <form action="https://formspree.io/f/mnqkkvaj" method="post" class="form">
             <div class="form-row">
                 <label for="name">Name</label>
@@ -67,9 +58,7 @@
             </div>
             <div class="form-row">
                 <label for="email">Email</label>
-                <input id="email" name="email"
-                       type="email" required
-                       placeholder="Insert your email">
+                <input id="email" name="email" type="email" required placeholder="Insert your email">
             </div>
             <div class="form-row">
                 <label for="textarea">Message</label>
@@ -79,7 +68,6 @@
                 <button>Send</button>
             </div>
         </form>
-    </div>
-    
+    </div>  
 </body>
 </html>

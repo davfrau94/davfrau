@@ -1,3 +1,4 @@
+/* Navbar & general webpage style rules */
 * {
     padding: 0;
     margin: 0;
@@ -10,7 +11,6 @@
 body {
     background: linear-gradient(to right, rgb(0, 120, 185), rgb(0, 40, 61));
 }
-/* general rules: navbar */
 nav {
     margin-bottom: 50px;
 }
@@ -48,7 +48,7 @@ a.active, a:hover {
     cursor:pointer;
     display: none;
 }
-/* media query */
+
 @media (max-width: 952px) {
     label.logo {
         padding: 0 20px 0 20px;

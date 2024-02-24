@@ -1,5 +1,4 @@
-/* page content*/
-section .container {
+section {
     max-width: 80%;
     margin: 0 auto;
     padding: 10px;
@@ -7,13 +6,25 @@ section .container {
 .about p {
     font-size: 40px;
 }
+.about p:first-child {
+    font-size: 50px;
+}
 .bxs-rocket {
     color:#ffe600;
 }
 .social li {
     font-size: 28px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+}
+.social li:last-child {
+    margin-bottom: 20px;
 }
 .about p:last-child {
     margin-bottom: 50px;
+}
+@media (max-width: 460px) {
+    .about p {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
 }

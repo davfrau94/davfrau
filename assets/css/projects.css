@@ -30,10 +30,16 @@ section h1 {
 }
 
 @media (max-width: 701px) {
+    .project-list {
+        width: 100%;
+    }
+    .project-row {
+        margin-bottom: 25px;
+    }
     .project-name {
-        font-size: 25px;
+        font-size: 20px;
     }
     .project-date {
-        font-size: 15px;
+        font-size: 12px;
     }
 }
